@@ -38,7 +38,7 @@ This project collects my Chess.com game history, cleans and transforms the data 
 
 - **Rapid games analyzed:** 3,221
 
-- **Date range:** July 2022 â€“ October 2026
+- **Date range:** July 2022 - October 2026
 
 - **Results:** 1,577 wins, 1,470 losses, and 174 draws across Rapid games
 
@@ -93,29 +93,17 @@ The dashboard includes:
 ```text
 
 chess-performance-analyzer/
-
-â”œâ”€â”€ data/
-
-â”‚   â””â”€â”€ monthly_rapid_performance.csv
-
-â”œâ”€â”€ sql/
-
-â”‚   â””â”€â”€ analysis_queries.sql
-
-â”œâ”€â”€ clean_games.py
-
-â”œâ”€â”€ download_games.py
-
-â”œâ”€â”€ import_games_to_mysql.py
-
-â”œâ”€â”€ inspect_games.py
-
-â”œâ”€â”€ test_mysql_connection.py
-
-â”œâ”€â”€ .gitignore
-
-â””â”€â”€ README.md
-
+|-- data/
+|   `-- monthly_rapid_performance.csv
+|-- sql/
+|   `-- analysis_queries.sql
+|-- clean_games.py
+|-- download_games.py
+|-- import_games_to_mysql.py
+|-- inspect_games.py
+|-- test_mysql_connection.py
+|-- .gitignore
+`-- README.md
 ```
 
 

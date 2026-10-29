@@ -1,0 +1,25 @@
+﻿# Raw Chess.com archive data
+data/all_games.json
+data/rated_games.json
+data/unrated_games.json
+data/failed_archives.json
+data/unknown_rating_status.json
+
+# Full cleaned dataset
+data/cleaned_games.csv
+
+# Credentials and environment variables
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

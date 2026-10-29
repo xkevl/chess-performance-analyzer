@@ -91,7 +91,6 @@ The dashboard includes:
 
 
 ```text
-
 chess-performance-analyzer/
 |-- data/
 |   `-- monthly_rapid_performance.csv

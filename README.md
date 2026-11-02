@@ -48,22 +48,40 @@ The dataset contains game dates, player and opponent ratings, results, colors pl
 
 
 
-## Key Findings
+## SQL Analysis & Key Findings
 
+### 1. Rapid Rating Progression
 
+Monthly SQL aggregations showed that average Rapid rating increased from **553 in July 2022 to 1,287 in October 2026**, representing a **734-point increase (133%)**.
 
-- Rapid score percentage was approximately **51.7%**, counting a draw as half a point.
+This indicates substantial long-term improvement, although monthly averages can fluctuate depending on game volume and performance.
 
-- Performance differed by color: the initial analysis showed a higher win rate when playing White than Black.
+### 2. Overall Rapid Performance
 
-- Opening performance varied substantially. Some openings had strong results, while others were associated with more losses.
+Across **3,221 rated Rapid games**, the player recorded:
 
-- Monthly rating, score percentage, and game volume provide complementary views of performance over time.
+- **1,577 wins**
+- **1,470 losses**
+- **174 draws**
+- **51.7% score percentage**, with draws counted as half a point
 
+The score percentage provides a more complete measure of competitive results than win rate alone because it accounts for drawn games.
 
+### 3. Performance by Piece Color
 
-Opening-level results should be interpreted cautiously because the number of games per opening varies.
+SQL analysis identified a performance gap between playing White and Black:
 
+- **White win rate:** approximately 53.0%
+- **Black win rate:** approximately 44.9%
+- **Difference:** approximately 8.1 percentage points
+
+This suggests that playing Black may be an area for further investigation, particularly in opening preparation and defensive play. However, the difference alone does not establish its cause.
+
+### Analytical Takeaways
+
+These analyses demonstrate the use of SQL aggregations, conditional calculations, grouping, and time-based analysis to identify performance trends and opportunities for improvement.
+
+The full SQL queries are available in [`sql/analysis_queries.sql`](sql/analysis_queries.sql).
 
 
 ## Tableau Dashboard

@@ -74,6 +74,12 @@ Opening-level results should be interpreted cautiously because the number of gam
 
 
 
+### Dashboard Preview
+
+![Chess Performance Analyzer Dashboard](screenshots/dashboard.png)
+
+
+
 The dashboard includes:
 
 - Rapid rating progression over time
